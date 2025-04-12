@@ -27,18 +27,26 @@ export const useCommonStore = defineStore('common', () => {
 <p><span style="text-decoration: underline;"><a target="_blank" href="https://www.instagram.com/meteoritesquare?igsh=Y2JhNWJkM2UxdDY=">隕方</a></span></p>`,
     },
     {
+      label: '聯絡方式',
+      hash: 'connect',
+      content: `<ol>
+<li><span>1. 各粉專留言/私訊</span></li>
+<li><span>2. 青蛙信箱: <a href="mailto:s414june@gmail.com">s414june@gmail.com</a></span></li>
+</ol>`,
+    },
+    {
       label: '節目表',
       hash: 'map',
       content: `<ol>
-<li><span style="font-weight: 400;">1. 我想這樣對你說(青蛙自創)</span></li>
-<li><span style="font-weight: 400;">2. 離開(原唱:郭靜)</span></li>
-<li><span style="font-weight: 400;">3. 當我們一起走過(原唱:蘇打綠)</span></li>
-<li><span style="font-weight: 400;">4. 小手拉大手(原唱:梁靜茹)</span></li>
-<li><span style="font-weight: 400;">5. 情人節出沒(青蛙自創)</span></li>
-<li><span style="font-weight: 400;">6. 董小姐(原唱:宋東野)</span></li>
-<li><span style="font-weight: 400;">7. 四季(原唱:A-lin)</span></li>
-<li><span style="font-weight: 400;">8. Knock(青蛙自創)</span></li>
-<li><span style="font-weight: 400;">9. 存在的力量(原唱:朱俐靜)</span></li>
+<li><span>1. 我想這樣對你說(青蛙自創)</span></li>
+<li><span>2. 離開(原唱:郭靜)</span></li>
+<li><span>3. 當我們一起走過(原唱:蘇打綠)</span></li>
+<li><span>4. 小手拉大手(原唱:梁靜茹)</span></li>
+<li><span>5. 情人節出沒(青蛙自創)</span></li>
+<li><span>6. 董小姐(原唱:宋東野)</span></li>
+<li><span>7. 四季(原唱:A-lin)</span></li>
+<li><span>8. Knock(青蛙自創)</span></li>
+<li><span>9. 存在的力量(原唱:朱俐靜)</span></li>
 </ol>`,
     },
     {

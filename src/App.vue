@@ -17,7 +17,7 @@ const scrollToTop = () => {
 
 <template>
   <header class="bg-white h-[63px] flex items-center px-6 shadow-lg fixed w-full z-10">
-    <h1 class="text-black text-xl hina-mincho-regular">青蛙x哈魯 2025/04/12 芝山綠門</h1>
+    <h1 class="text-black text-md hina-mincho-regular">青蛙x哈魯 2025/04/12 芝山綠門</h1>
     <div class="menu-btn" :class="{ active: menuActive }" @click="clickMenu">
       <div></div>
       <div></div>
@@ -70,7 +70,7 @@ const scrollToTop = () => {
 
   <RouterView />
   <div
-    class="hina-mincho-regular text-3xl w-[45px] h-[45px] fixed bg-sky-400/[.8] rounded-full m-5 right-0 bottom-0 z-10 flex justify-center items-end text-white"
+    class="hina-mincho-regular text-3xl w-[45px] h-[45px] fixed bg-black rounded-full m-5 right-0 bottom-0 z-10 flex justify-center items-end text-white"
     @click="scrollToTop()"
   >
     ^
